@@ -28,5 +28,5 @@ END {
     } else {
         print "Official and unofficial videos have the same number of likes."
     }
-}' "$1"
+}' "New_Spotify_Youtube.csv" > analysis2.txt
 
